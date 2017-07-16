@@ -13,6 +13,6 @@ RUN cd /home/user &&  \
     wget  http://mirror.reismil.ch/gnu/gnuzilla/52.1.0/icecat-52.1.0.en-US.linux-x86_64.tar.bz2 && \
     tar jxvf icecat-52.1.0.en-US.linux-x86_64.tar.bz2 
 
-RUN rm icecat-52.1.0.en-US.linux-x86_64.tar.bz2 
+RUN rm /home/user/icecat-52.1.0.en-US.linux-x86_64.tar.bz2 
 
 CMD /home/user/icecat/icecat
